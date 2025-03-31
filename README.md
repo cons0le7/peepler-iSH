@@ -22,7 +22,7 @@ An osint tool for people searches in over 9+ countries including Canada, USA, an
     apk add python3
     apk add py3-pip 
     git clone https://github.com/cons0le7/peepler-iSH.git
-    cd peepler
+    cd peepler-iSH
     chmod +x install.sh
     ./install.sh
     python3 main.py
