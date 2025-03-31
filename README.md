@@ -16,7 +16,7 @@ An osint tool for people searches in over 9+ countries including Canada, USA, an
 
 1.  Single-paste install:
 
-    ```bash
+    ```
     apk add git
     apk add bash
     apk add python3
