@@ -2,6 +2,8 @@
 
 An osint tool for people searches in over 9+ countries including Canada, USA, and India.
 
+* This fork is a modified version made for compatibility with iSH shell on iOS *
+
 ## ✨ Features
 
 *   **Multi-Country Support:** Search for individuals across 9+ countries.
@@ -10,27 +12,23 @@ An osint tool for people searches in over 9+ countries including Canada, USA, an
 
 ## 🛠️ Installation
 
-### Prerequisites
-
-*   Python 3.6+
-*   `pip` package installer
-
 ### Steps
 
-1.  Clone the repository:
+1.  Single-paste install:
 
     ```bash
-    git clone https://github.com/scarlmao/peepler.git
+    apk add git
+    apk add bash
+    apk add python3
+    apk add py3-pip 
+    git clone https://github.com/cons0le7/peepler.git
     cd peepler
+    chmod +x install.sh
+    ./install.sh
+    python3 main.py
     ```
 
-2.  Install the required Python packages:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  Configure the tool (if needed):
+2.  Configure the tool (if needed):
 
     *   Go to `config.json` and adjust the response time if you encounter rate limits.
 
